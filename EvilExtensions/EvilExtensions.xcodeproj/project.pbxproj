@@ -13,6 +13,7 @@
 		32008E3F1C40A69A00CAF3EB /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32008E3C1C40A69A00CAF3EB /* ArrayExtensions.swift */; };
 		32008E401C40A69A00CAF3EB /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32008E3D1C40A69A00CAF3EB /* Macro.swift */; };
 		32008E411C40A69A00CAF3EB /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32008E3E1C40A69A00CAF3EB /* StringExtensions.swift */; };
+		32B3B6081C6D5A7900B2EEA3 /* LayoutExensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B3B6071C6D5A7900B2EEA3 /* LayoutExensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		32008E3C1C40A69A00CAF3EB /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		32008E3D1C40A69A00CAF3EB /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
 		32008E3E1C40A69A00CAF3EB /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		32B3B6071C6D5A7900B2EEA3 /* LayoutExensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutExensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				32008E3C1C40A69A00CAF3EB /* ArrayExtensions.swift */,
 				32008E3D1C40A69A00CAF3EB /* Macro.swift */,
 				32008E3E1C40A69A00CAF3EB /* StringExtensions.swift */,
+				32B3B6071C6D5A7900B2EEA3 /* LayoutExensions.swift */,
 				32008E251C40A68A00CAF3EB /* EvilExtensions.h */,
 				32008E271C40A68A00CAF3EB /* Info.plist */,
 			);
@@ -205,6 +208,7 @@
 			files = (
 				32008E411C40A69A00CAF3EB /* StringExtensions.swift in Sources */,
 				32008E401C40A69A00CAF3EB /* Macro.swift in Sources */,
+				32B3B6081C6D5A7900B2EEA3 /* LayoutExensions.swift in Sources */,
 				32008E3F1C40A69A00CAF3EB /* ArrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,6 +395,7 @@
 				32008E381C40A68A00CAF3EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32008E391C40A68A00CAF3EB /* Build configuration list for PBXNativeTarget "EvilExtensionsTests" */ = {
 			isa = XCConfigurationList;
@@ -399,6 +404,7 @@
 				32008E3B1C40A68A00CAF3EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

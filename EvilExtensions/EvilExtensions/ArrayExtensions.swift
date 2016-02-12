@@ -13,4 +13,15 @@ public extension Array {
     public func random() -> Element {
         return self[Int(arc4random_uniform(UInt32(self.count)))]
     }
+    
+    
+        func skip(count:Int)->[Element] {
+            
+            if self.count == 0 {
+                return [Element]()
+            }
+            
+            return [Element](self[count..<self.count])
+        }
+
 }
